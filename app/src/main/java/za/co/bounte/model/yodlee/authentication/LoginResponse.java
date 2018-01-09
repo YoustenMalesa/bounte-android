@@ -4,13 +4,13 @@ package za.co.bounte.model.yodlee.authentication;
  * Created by Rocky on 2018/01/09.
  */
 
-public class LoginSession {
+public class LoginResponse {
     private String cobrandId;
     private String applicationId;
     private String locale;
     private CobrandSession session;
 
-    public LoginSession(String cobrandId, String applicationId, String locale, CobrandSession session) {
+    public LoginResponse(String cobrandId, String applicationId, String locale, CobrandSession session) {
         this.cobrandId = cobrandId;
         this.applicationId = applicationId;
         this.locale = locale;
