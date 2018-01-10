@@ -10,6 +10,15 @@ public class AdditionalDataSet {
     private String name;
     private List<Attribute> attribute = null;
 
+    public AdditionalDataSet(String name, List<Attribute> attribute) {
+        this.name = name;
+        this.attribute = attribute;
+    }
+
+    public AdditionalDataSet() {
+
+    }
+
     public String getName() {
         return name;
     }

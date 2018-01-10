@@ -7,6 +7,13 @@ package za.co.bounte.model.yodlee.provider;
 public class CreditCard{
     private Integer numberOfTransactionDays;
 
+    public CreditCard() {
+    }
+
+    public CreditCard(Integer numberOfTransactionDays) {
+        this.numberOfTransactionDays = numberOfTransactionDays;
+    }
+
     public Integer getNumberOfTransactionDays() {
         return numberOfTransactionDays;
     }

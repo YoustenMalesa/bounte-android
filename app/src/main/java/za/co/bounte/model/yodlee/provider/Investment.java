@@ -7,6 +7,13 @@ package za.co.bounte.model.yodlee.provider;
 public class Investment {
     private Integer numberOfTransactionDays;
 
+    public Investment() {
+    }
+
+    public Investment(Integer numberOfTransactionDays) {
+        this.numberOfTransactionDays = numberOfTransactionDays;
+    }
+
     public Integer getNumberOfTransactionDays() {
         return numberOfTransactionDays;
     }

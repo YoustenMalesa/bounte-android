@@ -10,6 +10,14 @@ public class Attribute {
     private String name;
     private List<String> container = null;
 
+    public Attribute() {
+    }
+
+    public Attribute(String name, List<String> container) {
+        this.name = name;
+        this.container = container;
+    }
+
     public String getName() {
         return name;
     }

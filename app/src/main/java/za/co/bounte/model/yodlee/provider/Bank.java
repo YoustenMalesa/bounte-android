@@ -8,6 +8,13 @@ public class Bank {
 
     private Integer numberOfTransactionDays;
 
+    public Bank() {
+    }
+
+    public Bank(Integer numberOfTransactionDays) {
+        this.numberOfTransactionDays = numberOfTransactionDays;
+    }
+
     public Integer getNumberOfTransactionDays() {
         return numberOfTransactionDays;
     }

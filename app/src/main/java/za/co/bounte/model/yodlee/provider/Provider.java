@@ -28,6 +28,31 @@ public class Provider {
     private List<AdditionalDataSet> additionalDataSet = null;
     private String authType;
 
+    public Provider() {
+    }
+
+    public Provider(String PRIORITY, Integer id, String name, String loginUrl, String baseUrl, String favicon, String logo, String status, Boolean oAuthSite, String languageISOCode, String primaryLanguageISOCode, String countryISOCode, String lastModified, String forgetPasswordUrl, Boolean isAutoRefreshEnabled, ContainerAttributes containerAttributes, List<String> containerNames, List<AdditionalDataSet> additionalDataSet, String authType) {
+        this.PRIORITY = PRIORITY;
+        this.id = id;
+        this.name = name;
+        this.loginUrl = loginUrl;
+        this.baseUrl = baseUrl;
+        this.favicon = favicon;
+        this.logo = logo;
+        this.status = status;
+        this.oAuthSite = oAuthSite;
+        this.languageISOCode = languageISOCode;
+        this.primaryLanguageISOCode = primaryLanguageISOCode;
+        this.countryISOCode = countryISOCode;
+        this.lastModified = lastModified;
+        this.forgetPasswordUrl = forgetPasswordUrl;
+        this.isAutoRefreshEnabled = isAutoRefreshEnabled;
+        this.containerAttributes = containerAttributes;
+        this.containerNames = containerNames;
+        this.additionalDataSet = additionalDataSet;
+        this.authType = authType;
+    }
+
     public String getPRIORITY() {
         return PRIORITY;
     }

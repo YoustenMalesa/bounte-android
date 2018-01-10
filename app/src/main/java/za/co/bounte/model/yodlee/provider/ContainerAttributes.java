@@ -10,6 +10,42 @@ public class ContainerAttributes {
     private Bank bank;
     private Investment investment;
 
+
+    public Loan getlOAN() {
+        return lOAN;
+    }
+
+    public void setlOAN(Loan lOAN) {
+        this.lOAN = lOAN;
+    }
+
+    public CreditCard getCreditCard() {
+        return creditCard;
+    }
+
+    public void setCreditCard(CreditCard creditCard) {
+        this.creditCard = creditCard;
+    }
+
+    public Bank getBank() {
+        return bank;
+    }
+
+    public void setBank(Bank bank) {
+        this.bank = bank;
+    }
+
+    public Investment getInvestment() {
+        return investment;
+    }
+
+    public void setInvestment(Investment investment) {
+        this.investment = investment;
+    }
+
+    public ContainerAttributes() {
+    }
+
     public Loan getLOAN() {
         return lOAN;
     }
