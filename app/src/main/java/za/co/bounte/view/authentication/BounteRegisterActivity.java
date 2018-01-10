@@ -12,4 +12,24 @@ public class BounteRegisterActivity extends AppCompatActivity implements BounteR
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bountee_register_view);
     }
+
+    @Override
+    public void showError(String message) {
+        
+    }
+
+    @Override
+    public void showProgress(String message) {
+
+    }
+
+    @Override
+    public void hideProgress(String message) {
+
+    }
+
+    @Override
+    public void navigateToDashboard() {
+
+    }
 }

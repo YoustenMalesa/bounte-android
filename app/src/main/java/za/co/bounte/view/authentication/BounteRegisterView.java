@@ -5,4 +5,10 @@ package za.co.bounte.view.authentication;
  */
 
 public interface BounteRegisterView {
+
+    void showError(String message);
+    void showProgress(String message);
+    void hideProgress(String message);
+    void navigateToDashboard();
+
 }
