@@ -1,7 +1,5 @@
 package za.co.bounte.model.yodlee.authentication.user;
 
-import za.co.bounte.model.yodlee.authentication.CobrandSession;
-
 /**
  * Created by Rocky on 2018/01/10.
  */

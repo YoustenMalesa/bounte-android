@@ -1,4 +1,4 @@
-package za.co.bounte.model.yodlee.authentication;
+package za.co.bounte.model.yodlee.authentication.service;
 
 /**
  * Created by Rocky on 2018/01/09.
