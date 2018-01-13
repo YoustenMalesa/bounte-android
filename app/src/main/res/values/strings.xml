@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">bounte-android</string>
+    <string name="optimize">Optimize analytics\nto help improve your\nshopping experience</string>
+    <string name="holistic">Get a holistic view of\npoints across all your\nloyalty programs</string>
+    <string name="promos">Specially individualized\ntailored promotions</string>
 </resources>
